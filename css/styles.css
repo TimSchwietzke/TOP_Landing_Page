@@ -83,7 +83,7 @@ img {
   object-fit: cover; 
 }
 
-button {
+.header button {
   background-color: #3882F6;
   border-radius: 10px;
   color: #F9FAF8;
@@ -96,10 +96,7 @@ button {
   margin-top: 20px;
 }
 
-
-
 /* CONTENT */
-
 
 .information, .information * {
   border: 0px solid red;
@@ -166,4 +163,46 @@ button {
   font-weight: bold;
   display: flex;
   justify-content: flex-end;
+}
+
+/* SIGN-UP */
+
+.sign-up {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 13vh 13vw;
+  padding: 7vh 8vw;
+  background-color: #3882F6;
+
+  border-radius: 12px;
+}
+
+.su-header {
+  color: #F9FAF8;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.su-text {
+  color: #F9FAF8;
+  filter: contrast(0.7);
+  font-size: 18px;
+}
+
+.su-right {
+  background-color: #3882F6;
+
+  border: 2px solid #F9FAF8;
+  border-radius: 10px;
+  
+  color: #F9FAF8;
+  padding: 8px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  font-size: 18px;
+  font-weight: bold;
 }
